@@ -1,1 +1,95 @@
-
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Fondo suave */
+    color: #333; /* Texto en color oscuro */
+    line-height: 1.6;
+  }
+  
+  /* Contenedor Principal */
+  .container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #ffffff; /* Fondo blanco para el contenedor */
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center;
+  }
+  
+  /* Título */
+  .container h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #2d3748; /* Azul oscuro */
+  }
+  
+  /* Formulario de Selección */
+  .pokemon-form {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  #pokemon-select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 2px solid #4a5568; /* Borde oscuro */
+    border-radius: 5px;
+    background-color: #edf2f7; /* Fondo claro */
+    color: #2d3748;
+  }
+  
+  #pokemon-select:focus {
+    outline: none;
+    border-color: #3182ce; /* Azul vibrante */
+  }
+  
+  #get-pokemon {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #4caf50; /* Verde llamativo */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #get-pokemon:hover {
+    background-color: #45a049; /* Verde más oscuro */
+  }
+  
+  /* Información del Pokémon */
+  #pokemon-info {
+    margin: 1rem 0;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #f0f8ff; /* Fondo azul claro */
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  #pokemon-info p {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Imagen del Pokémon */
+  #pokemon-image {
+    display: block;
+    margin: 1rem auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para la imagen */
+    background-color: #edf2f7; /* Fondo claro detrás de la imagen */
+    padding: 10px;
+  }
+  
